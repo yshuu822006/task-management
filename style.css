@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  background: white;
+  padding: 20px;
+  margin: 30px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.note-form input,
+.note-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button:hover {
+  background: #218838;
+}
+
+.note {
+  background: #f8f9fa;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  text-align: left;
+  position: relative;
+}
+
+.note h4 {
+  margin: 0;
+}
+
+.note p {
+  margin: 5px 0;
+}
+
+.note .buttons {
+  text-align: right;
+}
+
+.edit-btn,
+.delete-btn {
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.edit-btn {
+  background: #ffc107;
+  color: black;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+}
